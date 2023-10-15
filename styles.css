@@ -15,6 +15,7 @@ body{
 }
 
 header{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,7 +43,11 @@ h4{
 }
 
 .logo{
+  position: absolute;
   width:200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .top-left{
@@ -144,4 +149,73 @@ h4{
   transform: scale(1.1);
 }
 
+@media (max-width:1000px){
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    /* padding: 15px; */
+  }
 
+  .btn-in-head{
+    font-size: 8px;
+    margin: 5px;
+  }
+
+  .logo{
+    width: 100px;
+    text-align: center;
+  }
+  .video{
+    width: 100%;
+    overflow: hidden;
+  }
+  .vid{
+    position: relative;
+  }
+  .txt{
+    font-size: 8px;
+    position: absolute;
+    bottom: 25px;
+    
+  }
+  .btn-in-vid{
+    padding: 4px;
+  }
+
+  .row-one{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  .img-row-one{
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+  }
+
+  .row-two,.row-three{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+
+  .img-row-two,.img-row-three{
+    width: 100%;
+    height: 500px;
+  }
+  .contact{
+    height: 100px;
+  }
+  .con{
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 35px;
+  }
+  .insta{
+    width: 32px;
+  }
+}
