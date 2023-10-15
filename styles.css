@@ -21,6 +21,7 @@ header{
   justify-content: space-between;
   background-color: white;
   padding: 15px;
+  height: 70px;
 }
 .btn-in-head{
   color: black;
@@ -44,7 +45,7 @@ h4{
 
 .logo{
   position: absolute;
-  width:200px;
+  width:300px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -155,17 +156,19 @@ h4{
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    /* padding: 15px; */
+    height: 50px;
   }
 
   .btn-in-head{
     font-size: 8px;
     margin: 5px;
+    padding: 10px;
   }
 
   .logo{
-    width: 100px;
+    width: 120px;
     text-align: center;
+  
   }
   .video{
     width: 100%;
