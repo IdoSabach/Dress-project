@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+
+body{
+  background-color: rgb(224, 236, 236);
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 15px;
+}
+h3:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.logo{
+  width:200px;
+}
+
+.img-row-one{
+  width: 100%;
+  height: 600px;
+  border-radius: 15px;
+}
+.img-row-two{
+  width: 100%;
+  height: 900px;
+  border-radius: 15px;
+}
+
+.img-row-three{
+  width: 100%;
+  height: 1200px;
+  border-radius: 15px;
+}
+.box-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* background-color: white; */
+  border-radius: 15px;
+}
+
+.btn{
+  position: absolute;
+  z-index: 9999;
+  background-color: white;
+  border-radius: 8px;
+  bottom: 25px;
+  padding: 3px;
+  font-size: 24px;
+}
+.btn:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgb(209, 206, 206);
+}
+
+.row-one{
+  margin: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.row-two,.row-three{
+  margin: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
