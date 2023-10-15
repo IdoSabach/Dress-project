@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+  font-family: 'AR One Sans', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-color: rgb(224, 236, 236);
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 15px;
+}
