@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -150,7 +151,7 @@ h4{
   transform: scale(1.1);
 }
 
-@media (max-width:1000px){
+@media (max-width:420px){
   header{
     display: flex;
     align-items: center;
@@ -188,26 +189,105 @@ h4{
 
   .row-one{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 5px;
     column-gap: 5px;
   }
   .img-row-one{
     width: 100%;
-    height: 450px;
+    height: 150px;
     border-radius: 5px;
   }
 
   .row-two,.row-three{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     row-gap: 5px;
     column-gap: 5px;
   }
 
   .img-row-two,.img-row-three{
     width: 100%;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+  .contact{
+    height: 70px;
+  }
+  .con{
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 35px;
+  }
+  .insta{
+    width: 32px;
+  }
+}
+
+@media(min-width:420px) and (max-width:1000px){
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 100px;
+  }
+
+  .btn-in-head{
+    font-size:16px;
+    margin: 15px;
+  }
+
+  .logo{
+    width: 250px;
+    text-align: center;
+  
+  }
+  .video{
+    width: 100%;
+    overflow: hidden;
+  }
+  .vid{
+    position: relative;
+  }
+  .txt{
+    font-size: 16px;
+    position: absolute;
+    bottom: 25px;
+    
+  }
+  .btn-in-vid{
+    padding: 4px;
+  }
+
+  .row-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  .img-row-one{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+  }
+
+  .row-two,.row-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+
+  .img-row-two{
+    width: 100%;
     height: 500px;
+  }
+
+ .img-row-three{
+    width: 100%;
+    height: 600px;
   }
   .contact{
     height: 100px;
