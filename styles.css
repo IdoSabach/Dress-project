@@ -145,6 +145,18 @@ h4{
   transform: scale(1.01);
   cursor: pointer;
 }
+.btn{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.8;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+}
 .row-one{
   margin: 15px;
   display: grid;
