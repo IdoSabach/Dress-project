@@ -180,6 +180,7 @@ h4{
   background-color: white;
   margin: 10px;
   border-radius: 5px;
+  border-style: solid;
 }
 
 .contact{
@@ -376,6 +377,7 @@ h6{
   }
   .contact{
     height: 70px;
+    border-style: solid;
   }
   .con{
     font-size: 24px;
