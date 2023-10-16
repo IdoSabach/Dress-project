@@ -215,7 +215,11 @@ h4{
 }
 
 .copy{
-  width: 10px;
+  width: 15px;
+}
+
+h6{
+  font-size: 16px;
 }
 
 .whatsapp{
@@ -250,6 +254,27 @@ h4{
   bottom: 1px;
 }
 
+/* dresses pages */
+
+.head-of-dress{
+  text-align: center;
+  font-size: 80px;
+  padding: 50px;
+}
+
+.grid-of-dresses-one{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.img-of-dresses-first , .img-of-dresses-last,.img-of-dresses{
+  width: 100%;
+}
+.img-of-dresses-first , .img-of-dresses-last{
+  grid-column: span 2;
+}
 
 
 @media (max-width:600px){
@@ -379,6 +404,13 @@ h4{
     position: absolute;
     width: 100%;
     bottom: 1px;
+  }
+
+  /* pages dresses */
+  .head-of-dress{
+    text-align: center;
+    font-size: 40px;
+    padding: 25px;
   }
   
 }
