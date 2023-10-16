@@ -156,6 +156,7 @@ h4{
 
 .btn:hover{
   transform: scale(1.1);
+  cursor: pointer;
 }
 .row-one{
   margin: 15px;
