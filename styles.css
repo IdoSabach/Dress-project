@@ -73,9 +73,6 @@ h4{
 }
 .video{
   width: 100%;
-  /* height: 500px; */
-  /* position: relative; */
-  /* height: 500px; */
 }
 .Welcome{
   height: 200px;
@@ -260,7 +257,13 @@ h6{
 .head-of-dress{
   text-align: center;
   font-size: 80px;
-  padding: 50px;
+  padding-top: 50px;
+}
+
+.head-of-dress-but{
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 50px;
 }
 
 .grid-of-dresses-one{
@@ -268,6 +271,7 @@ h6{
   grid-template-columns: 1fr 1fr;
   column-gap: 5px;
   row-gap: 5px;
+  margin-bottom: 5px;
 }
 
 .img-of-dresses-first , .img-of-dresses-last,.img-of-dresses{
@@ -411,7 +415,13 @@ h6{
   .head-of-dress{
     text-align: center;
     font-size: 40px;
-    padding: 25px;
+    padding-top: 25px;
+  }
+
+  .head-of-dress-but{
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 30px;
   }
   
 }
