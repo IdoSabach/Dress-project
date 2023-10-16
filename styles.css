@@ -282,7 +282,9 @@ h6{
 .img-of-dresses-first , .img-of-dresses-last{
   grid-column: span 2;
 }
-
+.credit{
+  text-align: center;
+}
 
 @media (max-width:600px){
   header{
