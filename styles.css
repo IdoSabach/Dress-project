@@ -197,9 +197,13 @@ h4{
   font-weight: 600;
   margin-right: 50px;
 }
-.insta,.whatsapp-in-con{
+.insta{
   width: 50px;
-  padding: 15px;
+  padding: 5px;
+}
+.whatsapp-in-con{
+  width: 30px;
+  padding: 5px;
 }
 .insta:hover,.whatsapp-in-con:hover{
   cursor: pointer;
