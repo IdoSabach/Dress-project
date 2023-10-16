@@ -178,12 +178,6 @@ h4{
   row-gap: 10px;
 }
 
-.downline{
-  text-align: center;
-  background-color:rgb(226, 226, 226);
-  color: black;
-}
-
 .contact{
   height: 100px;
   background-color: white;
@@ -214,8 +208,14 @@ h4{
   transform: scale(1.1);
 }
 
+.downline{
+  text-align: center;
+  background-color:rgb(226, 226, 226);
+  color: black;
+}
+
 .copy{
-  width: 15px;
+  width: 10px;
 }
 
 h6{
