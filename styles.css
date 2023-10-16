@@ -197,10 +197,11 @@ h4{
   font-weight: 600;
   margin-right: 50px;
 }
-.insta{
+.insta,.whatsapp-in-con{
   width: 50px;
+  padding: 15px;
 }
-.insta:hover{
+.insta:hover,.whatsapp-in-con:hover{
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -208,6 +209,15 @@ h4{
 .copy{
   width: 10px;
 }
+
+.whatsapp{
+  width: 50px;
+  position:fixed;
+  bottom:20px;
+  right: 20px;
+  /* z-index: 9999; */
+}
+
 
 @media (max-width:600px){
   header{
