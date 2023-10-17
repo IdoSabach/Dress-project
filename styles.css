@@ -41,8 +41,8 @@ h4{
   margin-top: 10px;
 }
 .btn-in-vid{
-  outline: 2px solid black;
-  color: black;
+  outline: 2px solid white;
+  color: white;
   text-decoration: none;
   padding: 10px;
 }
@@ -69,7 +69,7 @@ h4{
   text-align: center;
   position: absolute;
   bottom: 150px;
-  color: black;
+  color: white;
   font-size: 24px;
 }
 .video{
@@ -332,7 +332,6 @@ h6{
   .logo{
     width: 120px;
     text-align: center;
-  
   }
   .video{
     width: 100%;
