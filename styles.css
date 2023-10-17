@@ -89,13 +89,17 @@ h4{
 h2{
   -webkit-text-stroke: 1px black;
   color:transparent;
-  background-image: linear-gradient(black,black);
+  background: linear-gradient(black, black);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-position: -600px 0;
   animation: backcolor 5s linear infinite;
   text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom:50px;
+  background: line;
 }
+
 @keyframes backcolor {
   100%{
     background-position: 0 0;
