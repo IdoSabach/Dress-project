@@ -117,18 +117,18 @@ h4{
 .img-row-one{
   width: 100%;
   height: 650px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 .img-row-two{
   width: 100%;
   height: 950px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .img-row-three{
   width: 100%;
   height: 1200px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 .box-one{
   display: flex;
@@ -163,16 +163,20 @@ h4{
   margin: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .row-two,.row-three{
   margin: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .contact{
@@ -352,28 +356,19 @@ h6{
   .row-one{
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 5px;
-    column-gap: 5px;
-  }
-  .img-row-one{
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+    row-gap: 15px;
+    column-gap: 15px;
+    
   }
 
   .row-two,.row-three{
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 5px;
-    column-gap: 5px;
+    row-gap: 25px;
+    margin-top: 25px;
   }
 
-  .img-row-two{
-    width: 100%;
-    height: auto;
-  }
-  .img-row-three{
-    width: 100%;
+  .img-row-three,.img-row-two,.img-row-one{
     height: auto;
   }
   .contact{
@@ -414,18 +409,23 @@ h6{
     bottom: 1px;
   }
 
+  .few-words{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
   /* pages dresses */
   .head-of-dress{
     text-align: center;
-    font-size: 40px;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
   }
 
   .head-of-dress-but{
     text-align: center;
-    font-size: 28px;
-    padding-bottom: 30px;
+    font-size:12px;
+    padding-bottom: 20px;
   }
   
 }
