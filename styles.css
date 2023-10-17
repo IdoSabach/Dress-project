@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   font-family: 'AR One Sans', sans-serif;
   font-family: 'Oxygen', sans-serif;
   font-family: 'Playfair Display', serif;
@@ -181,7 +181,7 @@ h4{
 }
 
 .contact{
-  height: 100px;
+  height: 200px;
   background-color: white;
   margin: 10px;
   border-radius: 5px;
