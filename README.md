@@ -1,3 +1,4 @@
-# Dress-project
+# neriya's dresses
 
-https://idosabach.github.io/Dress-project/
+The dress rental site is optimized for computer, tablet and mobile.
+http://neriyasdresses.com/
