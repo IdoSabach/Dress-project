@@ -9,6 +9,7 @@
   font-family: 'Poppins', sans-serif;
   font-family: 'Quicksand', sans-serif;
   font-family: 'Ubuntu', sans-serif;
+  /* box-sizing: border-box; */
 }
 
 body{
@@ -75,16 +76,33 @@ h4{
 .video{
   width: 100%;
 }
-.Welcome{
-  height: 200px;
-  font-size: 80px;
-  font-weight: 700;
-  text-align: center;
+
+.box-for-txt{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  margin-top:10px ;
+  background-color: white;
+  font-size: 40px;
 }
+
+h2{
+  -webkit-text-stroke: 1px black;
+  color:transparent;
+  background-image: linear-gradient(black,black);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -600px 0;
+  animation: backcolor 5s linear infinite;
+  text-transform: uppercase;
+}
+@keyframes backcolor {
+  100%{
+    background-position: 0 0;
+  }
+  
+}
+
 .Neriya{
   position: relative;
   cursor: pointer;
@@ -298,17 +316,11 @@ h6{
     height: 50px;
   }
   
-  .Welcome{
-    height:50px;
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 60px;
+  h2{
+  font-size: 28px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   }
-
   .top-left,.top-right{
     display: flex;
     align-items:center;
