@@ -106,7 +106,7 @@ body{
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-position: -600px 0;
-  animation: backcolor 7s linear infinite;
+  animation: backcolor 8s linear infinite;
   text-transform: uppercase;
   padding-top: 50px;
   padding-bottom:50px;
@@ -340,6 +340,7 @@ body{
   font-size: 28px;
   padding-top: 45px;
   padding-bottom: 45px;
+  animation: backcolor 8s linear infinite;
   }
   .top-left,.top-right{
     display: flex;
