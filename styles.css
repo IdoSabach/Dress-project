@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   font-family: 'AR One Sans', sans-serif;
   font-family: 'Oxygen', sans-serif;
   font-family: 'Playfair Display', serif;
@@ -15,7 +15,18 @@
 body{
   background-color: white;
 }
+main{
+  max-width: 1440px;
+}
+
+.all-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 header{
+  width: 100%;
   position: relative;
   display: flex;
   align-items: center;
@@ -49,11 +60,11 @@ h4{
 }
 
 .logo{
-  position: absolute;
+  /* position: absolute; */
   width:300px;
-  top: 50%;
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   cursor: pointer;
 }
 
@@ -62,7 +73,9 @@ h4{
   align-items: center;
 }
 .vid{
+  width: 100%;
   display: flex;
+  /* align-items: center; */
   justify-content: center;
   position: relative;
 }
@@ -93,7 +106,7 @@ h2{
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-position: -600px 0;
-  animation: backcolor 5s linear infinite;
+  animation: backcolor 7s linear infinite;
   text-transform: uppercase;
   padding-top: 50px;
   padding-bottom:50px;
@@ -444,7 +457,7 @@ h6{
     padding-bottom: 20px;
   }
   .blok-for-con{
-    height: 200px;
+    /* height: 200px; */
     display: flex;
     align-items: center;
     justify-content: center;
