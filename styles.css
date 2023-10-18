@@ -214,17 +214,16 @@ body{
 }
 
 .contact{
-  height: 200px;
-  background-color: white;
-  margin: 10px;
-  border-radius: 5px;
-}
-
-.contact{
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  
 }
+
 .con{
   font-size: 40px;
   font-weight: 600;
@@ -307,21 +306,57 @@ body{
 
 .grid-of-dresses-one{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:repeat(4,1fr);
   column-gap: 5px;
   row-gap: 5px;
   margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.img-of-dresses-last-of-one,.img-of-dresses-first-of-six,.img-of-dresses-of-seven,.img-of-dresses-three,.video-four{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
 }
 
-.img-of-dresses-first , .img-of-dresses-last,.img-of-dresses{
+
+.grid-of-dresses-four{
+  display: grid;
+  grid-template-columns:repeat(5,1fr);
+  column-gap: 5px;
+  row-gap: 5px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.video-four{
+  grid-column: span 3;
+  grid-row: span 3;
+}
+
+.grid-of-dresses-six,.grid-of-dresses-five{
+  display: grid;
+  grid-template-columns:repeat(5,1fr);
+  column-gap: 5px;
+  row-gap: 5px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-of-dresses-first , .img-of-dresses-last,.img-of-dresses,.video{
   width: 100%;
+  border-radius: 5px;
+  
 }
-.img-of-dresses-first , .img-of-dresses-last{
+/* .img-of-dresses-first , .img-of-dresses-last{
   grid-column: span 2;
-}
+} */
 .credit{
   text-align: center;
 }
+
+
 
 @media (max-width:600px){
   .header{
@@ -399,6 +434,7 @@ body{
     height: auto;
   }
   .contact{
+    
     height: 70px;
   }
   .con{
@@ -461,6 +497,23 @@ body{
     justify-content: center;
     margin: 50px;
   }
+
+  .grid-of-dresses-five,.grid-of-dresses-one,.grid-of-dresses-six,.grid-of-dresses-four{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    margin-bottom: 5px;
+  }
+  .video-four{
+    grid-row: span 1;
+    grid-column: span 1;
+  } 
+
+  
+  /* .img-of-dresses-first , .img-of-dresses-last,.video{
+  grid-column: span 2;
+  } */
   
 }
 
