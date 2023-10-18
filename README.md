@@ -1,9 +1,11 @@
-# neriya's dresses
+# Dress Rental Site
 
-The dress rental site is optimized for computer, tablet and mobile.
+Welcome to our dress rental site! We've optimized everything for speed and performance, from video and image compression without quality loss to comprehensive speed tests. 
 
+Explore our collection of beautiful dresses, rent your favorite styles, and experience a seamless and fast user journey.
 
-# LIVE LINK
+Enjoy your visit!
 
-[Live link]((http://neriyasdresses.com/)
+[Link preview](https://neriyasdresses.com/)
+
 
