@@ -4,11 +4,6 @@
   padding: 0;
   /* outline: 1px solid red; */
   font-family: 'AR One Sans', sans-serif;
-  font-family: 'Oxygen', sans-serif;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Quicksand', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
   /* box-sizing: border-box; */
 }
 
@@ -142,7 +137,7 @@ body{
   right: 0;
   opacity: 1;
 }
-.few-words{
+.text-of-main-page{
   height: 200px;
   font-size: 32px;
   text-align: center;
@@ -150,6 +145,7 @@ body{
   align-items: center;
   justify-content: center;
   padding: 70px;
+  font-family: 'Lora', serif;
 }
 
 .btn{
@@ -281,7 +277,6 @@ body{
   margin-top: 10px;
   padding: 25px;
   direction: rtl;
-  font-family: 'AR One Sans', sans-serif;
   font-family: 'Heebo', sans-serif;
 }
 
@@ -379,8 +374,8 @@ body{
     justify-content: center;
   }
 
-  .few-words{
-    height: 200px;
+  .text-of-main-page{
+    height: 150px;
     font-size: 16px;
     text-align: center;
     display: flex;
@@ -518,7 +513,7 @@ body{
   } */
   
 }
-
+/* 
 @media(min-width:600px) and (max-width:1350px){
   .header{
     display: flex;
@@ -556,9 +551,9 @@ body{
     position: relative;
   }
   .txt{
-    font-size: 16px;
+    font-size: 24px;
     position: absolute;
-    bottom: 25px;
+    bottom: 100px;
     
   }
   .btn-in-vid{
@@ -571,10 +566,10 @@ body{
     row-gap: 5px;
     column-gap: 5px;
   }
-  /* .img-row-one{
+  .img-row-one{
     width: 100%;
     height: 350px;
-  } */
+  }
 
   .row-two,.row-three{
     display: grid;
@@ -584,15 +579,15 @@ body{
 
   }
 
-  /* .img-row-two{
+  .img-row-two{
     width: 100%;
     height: 520px;
-  } */
+  }
 
- /* .img-row-three{
+ .img-row-three{
     width: 100%;
     height: auto;
-  } */
+  }
   .contact{
     height: 100px;
   }
@@ -602,6 +597,15 @@ body{
     margin-right: 35px;
   }
   .insta{
-    width: 32px;
+    width: 48px;
   }
-}
+
+  .head-of-dress{
+    font-size: 36px;
+    padding: 10px;
+  }
+  .head-of-dress-but{
+    font-size: 20px;
+    padding-bottom:20px ;
+  }
+} */
